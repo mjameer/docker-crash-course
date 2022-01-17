@@ -1,29 +1,4 @@
-# Docker Crash Course for Java Developers
-
-[![Image](https://www.springboottutorial.com/images/Course-DockerCrashCourseForJavaSpringBootDevelopers.png "Docker Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/docker-course-with-java-and-spring-boot-for-beginners/)
-
-
-## Learn Docker creating containers for Spring Boot APIs and Microservices
-
-Learn Docker Fundamentals? Yes.   Create Containers for Microservices? Yes.     Create Containers for Full Stack Applications? Yes. Of Course. Hands-on? Of course.
-
-Do you have ZERO experience with Docker? No Problem.
-
-Do you want to learn to create containers for Java Spring Boot Applications and Microservices using Docker with an easy to learn, step by step approach?
-
-Are you ready to learn about Docker and take the next step in your programming career?
-
-Do you want to join 300,000+ learners having Amazing Learning Experiences with in28Minutes?
-
-Look No Further!
-
-## Getting Started
-- [Video - Spring in 10 Steps](https://www.youtube.com/watch?v=edgZo2g-LTM)
-- [Video - Spring Boot in 10 Steps](https://www.youtube.com/watch?v=pcdpk3Yd1EA)
-- [Video - JPA/Hibernate in 10 Steps](https://www.youtube.com/watch?v=MaI0_XdpdP8)
-- [Video - React in 10 Steps](https://www.youtube.com/watch?v=SWXuXhZkNQc&t=110s)
-- [Article - Getting started with React and Spring Boot - Full Stack](https://www.springboottutorial.com/spring-boot-react-full-stack-crud-maven-application)
-- [Article - Using Spring Security and JWT with React and Spring Boot](https://www.springboottutorial.com/spring-boot-react-full-stack-with-spring-security-basic-and-jwt-authentication)
+##  Docker in creating containers for Spring Boot APIs and Microservices
 
 #### Required Tools
 - Docker
@@ -33,23 +8,6 @@ Look No Further!
 - Java 8+
 - Eclipse - Oxygen+ - (Embedded Maven From Eclipse)
 - Docker Editor Plugin - https://marketplace.eclipse.org/content/docker-editor
-
-#### Installing Guides
-
-- [Playlist - Installing Java, Eclipse & Embedded Maven](https://www.youtube.com/playlist?list=PLBBog2r6uMCSmMVTW_QmDLyASBvovyAO3)
-- [Playlist - Installing Node Js (npm) & Visual Studio Code](https://www.youtube.com/playlist?list=PLBBog2r6uMCQN4X3Aa_jM9qVjgMCHMWx6)
-
-#### Troubleshooting Installations
-- Node JS and NPM 
-  - https://docs.npmjs.com/common-errors
-  - https://docs.npmjs.com/getting-started/troubleshooting
-- Visual Studio Code
-  - https://code.visualstudio.com/docs/supporting/errors
-  - https://code.visualstudio.com/docs/supporting/FAQ
-- Eclipse and Embedded Maven
-  - Troubleshooting Guide - https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ#tip--troubleshooting-embedded-maven-in-eclipse
-  - PDF - https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
-  - GIT Repository For Installation - https://github.com/in28minutes/getting-started-in-5-steps
 
 #### Troubleshooting Docker
 
@@ -73,47 +31,13 @@ Architectures are moving towards Microservices and Cloud. Docker makes it easy t
 
 Docker is the No 1 Tool to Containerize your Java Spring Boot Applications. Learning Docker would help you streamline your deployment processes and experiment easily with new frameworks and tools. 
 
-In this handson course, we will containerize - create docker images and create containers - for a variety of Spring Boot Applications:
+In this handson, we will containerize - create docker images and create containers - for a variety of Spring Boot Applications:
 - REST APIs - Hello World and Todo - Jar
 - Todo Web Application War
 - Full Stack Application with React and Spring Boot
 - CCS and CES Microservices
 - Eureka Naming Server and Zuul API Gateway
 
-This course would be a perfect first step as an introduction to Docker.
-
-You will be using containerizing a variety of projects created with  React (Frontend Framework), Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Node (npm), Visual Studio Code (TypeScript IDE), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
-
-## What you'll learn
-- You will Learn the Fundamentals of Docker from Zero, no previous experience required
-- You will learn the important Docker Concepts - Registry, Repository, Tag, Image,  Container and Volumes
-- You will learn the important Docker commands  
-- You will understand the Docker Architecture
-- You will create Docker images for 8 Java Spring Boot Projects
-- You will learn to use Dockerfile to Automate Building of your Docker Image
-- You will learn to use various maven plugins - Dockerfile Spotify Plugin, JIB Plugin and Fabric8 Docker Maven Plugin - to create Docker images
-- You will learn to create best practices with creating Docker Images - Improve Caching of Docker Images and create Multi Stage Docker Builds.
-- You will Containerize Java Spring Boot Todo Web Application talking with MySQL
-- You will Containerize Java Spring Boot React Full Stack Application with Docker
-- You will Containerize CCS, CES Microservices, Eureka Naming Server and Zuul API Gateway with Docker and Run them using Docker Compose
-- You will learn to run MySQL, RabbitMQ and Zipkin as Docker Containers
-- You will learn the basics of Docker Networking - HOST, BRIDGE and NONE
-- You will learn to use Docker Compose to Manage Your Containers
-- You will learn the basics of Microservices
-- You will Join 250,000 Learners having AMAZING LEARNING Experiences with in28Minutes
-
-## Requirements
-- You have an attitude to learn while having fun :)
-- You have some programming experience with Java, Spring and Spring Boot
-- You DO NOT need to have any experience with Docker
-- We will help you install Eclipse, Visual Studio Code, Git client, Docker Desktop and Node JS (for npm)
-
-## Who is this course for
-- You are a Java Spring Boot developer getting started with the Cloud
-- You want to containerize your Java applications with Docker
-- You are a Java Developer and You are curious about Docker
-- You want to learn to containerize a Java Spring Boot full stack application with Docker
-- You want to learn to play with Docker and Spring Boot Microservices - Service Registry, Distributed Tracing and Zuul API Gateway
 
 ## Step By Step Details
 
@@ -194,80 +118,6 @@ You will be using containerizing a variety of projects created with  React (Fron
 - 09 Step 02 - Using Docker Compose to Launch Zipkin, RabbitMq and Microservices
 - 09 Step 03 - Running Zipkin, RabbitMq and Microservices
 - 09 Step 04 - Thank You
-
-
-## Diagrams
-
-- Courtesy http://viz-js.com/
-
-```
-graph architecture {
-
-node[style=filled,color="#59C8DE"]
-//node [style=filled,color="#D14D28", fontcolor=white];
-rankdir = TB
-node[shape=record, width=3]
-
-Containers, LocalImages [height=1]
-
-DockerClient -- Daemon
-Daemon -- Containers 
-Daemon -- LocalImages
-Daemon -- ImageRegistry
-
-DockerClient[label=<Docker Client>]
-ImageRegistry[label=<Image Registry <BR /><FONT POINT-SIZE="10">nginx<BR />mysql<BR />eureka<BR />your-app<BR /><BR /></FONT>>];
-Daemon[label=<Docker Daemon>]
-
-
-}
-
-
-graph architecture {
-
-node[style=filled,color="#59C8DE"]
-//node [style=filled,color="#D14D28", fontcolor=white];
-rankdir = TB
-node[shape=record, width=2]
-Hypervisor,HostOS, Hardware[shape=record, width=6.5, style=filled,color="#D14D28", fontcolor=white]
-edge [width=0]
-graph [pad=".75", ranksep="0.05", nodesep="0.25"];
-
-Application1 -- Software1 [style=invis]
-Application2 -- Software2 [style=invis]
-Application3 -- Software3 [style=invis]
-
-Software1 -- GuestOS1 [style=invis]
-Software2 -- GuestOS2 [style=invis]
-Software3 -- GuestOS3 [style=invis]
-GuestOS1 -- Hypervisor [style=invis]
-GuestOS2 -- Hypervisor [style=invis]
-GuestOS3 -- Hypervisor [style=invis]
-Hypervisor -- HostOS [style=invis]
-HostOS -- Hardware [style=invis]
-
-}
-
-
-graph architecture {
-
-node[style=filled,color="#59C8DE"]
-//node [style=filled,color="#D14D28", fontcolor=white];
-rankdir = TB
-node[shape=record, width=2]
-HostOS, CloudInfrastructure, DockerEngine[shape=record, width=6.5, style=filled,color="#D14D28", fontcolor=white]
-edge [width=0]
-graph [pad=".75", ranksep="0.05", nodesep="0.25"];
-Container1,Container2,Container3[height=2]
-
-Container1 -- DockerEngine [style=invis]
-Container2 -- DockerEngine [style=invis]
-Container3 -- DockerEngine [style=invis]
-DockerEngine -- HostOS [style=invis]
-HostOS -- CloudInfrastructure [style=invis]
-
-}
-```
 
 
 ### Commands Executed during the course
@@ -380,13 +230,4 @@ web-application-mysql-network
 currency-network
 05-microservices_currency-compose-network
 ```
-### Troubleshooting
-- Refer our TroubleShooting Guide - https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ
 
-## Youtube Playlists - 500+ Videos
-
-[Click here - 30+ Playlists with 500+ Videos on Spring, Spring Boot, REST, Microservices and the Cloud](https://www.youtube.com/user/rithustutorials/playlists?view=1&sort=lad&flow=list)
-
-## Keep Learning in28Minutes
-
-in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
